@@ -166,9 +166,11 @@
 				TargetAttributes = {
 					80C316021A46F3F800E4493F = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
 					};
 					80C316171A46F3F800E4493F = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 80C316021A46F3F800E4493F;
 					};
 				};
@@ -347,6 +349,7 @@
 				INFOPLIST_FILE = FaceDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -358,6 +361,7 @@
 				INFOPLIST_FILE = FaceDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -377,6 +381,7 @@
 				INFOPLIST_FILE = FaceDetectionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceDetection.app/FaceDetection";
 			};
 			name = Debug;
@@ -392,6 +397,7 @@
 				INFOPLIST_FILE = FaceDetectionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceDetection.app/FaceDetection";
 			};
 			name = Release;
