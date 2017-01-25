@@ -313,6 +313,6 @@ class Visage: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
             orientation = 4
         default : orientation = 1
         }
-        return 6
+        return orientation
     }
 }
